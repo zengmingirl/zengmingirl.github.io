@@ -82,7 +82,7 @@
             transform: rotate(360deg);
             -ms-transform: rotate(360deg); /* IE 9 */
             -moz-transform: rotate(360deg); /* Firefox */
-            -webkit-transform: rotate(360deg); /* Safari ºÍ Chrome */
+            -webkit-transform: rotate(360deg); /* Safari å’Œ Chrome */
             -o-transform: rotate(360deg); /* Opera */
             filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
         }
@@ -119,7 +119,7 @@
 </head>
 
 <body>
-<!--¸ü¸ÄÎªÄãÅ®ÅóÓÑµÄÍ·Ïñ-->
+<!--æ›´æ”¹ä¸ºä½ å¥³æœ‹å‹çš„å¤´åƒ-->
 <div class="cs">
     <img src="http://my-blog-to-use.oss-cn-beijing.aliyuncs.com/18-6-29/64134513.jpg" id="logo">
 </div>
@@ -131,7 +131,7 @@
 <p class="text" style="color: #FFCCCC;">
      Silly Huan, I will accompany you in the future!
     <br/>
-    We have loved one another£º
+    We have loved one anotherï¼š
     <br/>
     <span id="span_dt_dt"></span>
 </p>
@@ -139,7 +139,7 @@
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("6/23/2018 00:00:00");//Õâ¸öÈÕÆÚÊÇ¿ÉÒÔĞŞ¸ÄµÄ
+        BirthDay = new Date("6/23/2018 00:00:00");//è¿™ä¸ªæ—¥æœŸæ˜¯å¯ä»¥ä¿®æ”¹çš„
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
@@ -161,27 +161,27 @@
         init: function () {
             S.Drawing.init('.canvas');
             var a =Math.floor(Math.random() * 5+1);
-			//ÏëËµµÄ»°
+			//æƒ³è¯´çš„è¯
             if (a==1) {
                 document.body.classList.add('body--ready');
-                alert("ÄãÒª³ÔµÄÎÒ¶¼×ö~");
-                S.UI.simulate("Éµ»¶|Óö¼ûÄã|ºÜĞÒÔË|#time");
+                alert("æ›¾æ•å¤§ç¬¨è›‹");
+                S.UI.simulate("æ›¾æ•å¤§ç¬¨è›‹|#time");
             }else if (a==2){
                 document.body.classList.add('body--ready1');
-                alert("ÄãÏëÈ¥µÄµØ·½ÎÒ¶¼ÅãÄãÈ¥~");
-                S.UI.simulate("Éµ¶ù×Ó|ÎÒ°®Äã|#time");
+                alert("æ›¾æ•å¤§ç¬¨è›‹");
+                S.UI.simulate("æ›¾æ•å¤§ç¬¨è›‹|#time");
             }else if (a==3) {
                  document.body.classList.add('body--ready2');
-                 alert("ÄãÏë×öµÄÊÂÇéÎÒ¶¼ÅãÄã×ö~");
-                 S.UI.simulate("Nice|to|Meet|You|#countdown 3|#time");
+                 alert("æ›¾æ•å¤§ç¬¨è›‹");
+                 S.UI.simulate("æ›¾æ•å¤§ç¬¨è›‹|#countdown 3|#time");
             }else if (a==4) {
                  document.body.classList.add('body--ready3');
-                 alert("ÈÎºÎÊ±ºò¼Ç×¡Äã¶¼ÓĞÎÒ£¬ÎÒ°®Äã£¬³¬¼¶³¬¼¶³¬¼¶°®Äã~");
-                 S.UI.simulate("Éµ»¶|ÒÔºóµÄÂ·|ÎÒ|Åã×Å|Äã|×ß|#countdown 3|#time");
+                 alert("æ›¾æ•å¤§ç¬¨è›‹");
+                 S.UI.simulate("æ›¾æ•å¤§ç¬¨è›‹|#countdown 3|#time");
             }else{
                  document.body.classList.add('body--ready4');
-                 alert("´óÉµ×Ó£¬ÎÒ°®ÄãÅ¶~");
-                 S.UI.simulate("´óÉµ×Ó");
+                 alert("æ›¾æ•å¤§ç¬¨è›‹");
+                 S.UI.simulate("å¤§å‚»å­");
             }
 
             S.Drawing.loop(function () {
@@ -636,7 +636,7 @@
     }());
     S.init();
 </script>
-<!--ÒôÀÖ¿É¸Ä-->
+<!--éŸ³ä¹å¯æ”¹-->
 <!-- <audio autoplay="autoplay" loop="loop">
     <source src="http://m10.music.126.net/20180509183512/5ae461e9a42675d782840bf139b05c60/ymusic/e492/ea7a/6a27/8799d19e52d9bbe3ae15febb03d7efdb.mp3" type="audio/mpeg">
 </audio> -->
